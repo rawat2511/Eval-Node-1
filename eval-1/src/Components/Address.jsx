@@ -20,7 +20,7 @@ export const Address = () => {
     {
         address.map((add) => 
             <div key={add.id}>
-                <h1>{add.address}</h1>
+                <h1>{add.id} - {add.address}</h1>
             </div>
         )
     }
